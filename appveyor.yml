@@ -31,7 +31,7 @@ test_script:
   # Output useful info for debugging.
   - node --version
   - npm --version
-  - cmd: npm test
+  - cmd: grunt travis
 
 # Don't actually build.
 build: off
