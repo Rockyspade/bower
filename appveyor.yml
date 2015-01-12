@@ -23,6 +23,8 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # Install subversion
   - choco install svn
+  # Install grunt command for running tests
+  - npm install -g grunt-cli
   # Install bower
   - npm install
 
